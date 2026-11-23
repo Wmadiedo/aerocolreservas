@@ -4,8 +4,6 @@
 
 AeroCol deja buscar vuelos por ruta, ordenarlos y elegir uno para reservar. El precio se actualiza según los pasajeros y la clase. Las reservas se guardan en el navegador y se pueden eliminar.
 
-**Sobre esta copia:** no se adjuntó el proyecto de la semana 14. La búsqueda y sus componentes se reconstruyeron a partir del enunciado. Se incluyeron seis vuelos de práctica y se conservó el ejemplo conocido de Medellín a Bogotá (vuelo v4). Si tienes el proyecto de clase, usa ese código para el primer commit e integra encima los cambios de esta copia. No presentes la reconstrucción como el código original de clase.
-
 ### Árbol de componentes
 
 ```mermaid
@@ -21,7 +19,6 @@ flowchart TD
     ListaVuelos --> Tarjeta["TarjetaVuelo ×N"]
 ```
 
-Las props están descritas en [el análisis de la Fase 1](docs/fase-1.md).
 
 ### F1 — Formulario de reserva
 
