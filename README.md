@@ -53,17 +53,3 @@ npm run dev
 
 `npm install` solo es necesario la primera vez o si cambian las dependencias. Abre la dirección que imprima Vite en la terminal. Los vuelos y precios son de práctica y no hay cobro ni conexión a una aerolínea.
 
-### Verificación
-
-```bash
-npm run lint
-npm run build
-```
-
-- Prueba Bogotá → Medellín para ver tres vuelos y verificar las cuatro opciones de orden.
-- Prueba Medellín → Bogotá. Selecciona ATR 72, agrega un pasajero y cambia a Ejecutiva. El total debe ser **$ 832.000 COP**. Sin nombre el botón debe seguir deshabilitado.
-- Escribe un nombre, reserva, recarga la página y revisa que la reserva con fecha siga ahí. Bórrala y revisa el estado vacío. Cambia de ruta y verifica que el criterio de orden no cambie.
-
-Para ensayar la demo, consulta [las notas para la defensa](docs/defensa.md).
-
-Si vas a unir esta solución a la base de clase, revisa [los pasos de integración](docs/integracion.md).
